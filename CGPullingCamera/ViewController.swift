@@ -33,8 +33,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(imagePicker, animated: true, completion: nil)
     }
     
-    //functions which control choosing a photo, and displaying it
-    
+    //outlet for the image
     @IBOutlet weak var photoTaken: UIImageView!
     
     
